@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Charlie</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link href="/assets/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="content">
+      <h1>Create a new Post</h1>
+      <form action="/posts/new" method="post">
+        <div class="mb-3">
+          <label for="title" class="form-label">Post Title</label>
+          <input name="title" type="text" class="form-control" id="title">
+        </div>
+        <div class="mb-3">
+          <label for="body" class="form-label">Post Body</label>
+          <input name="body" type="text" class="form-control" id="body">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

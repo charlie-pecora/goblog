@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Charlie</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link href="/assets/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="content">
+      <h1>Welcome {{.Id}}</h1>
+      <p>Hello {{ .OauthSub }}</p>
+      <div>
+        <img class="avatar" src="{{ .Picture }}"/>
+      </div>
+    </div>
+  </body>
+</html>
